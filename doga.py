@@ -69,3 +69,4 @@ print(f"Négyzetük: {int(math.pow(4, len(negyes_dobasok)))}")
 
 
 
+
