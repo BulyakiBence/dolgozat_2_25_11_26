@@ -33,7 +33,9 @@ for szam in dobasok:
     if szam > 18:
         tizennyolcnal_nagyobb.append(szam)
 if len(tizennyolcnal_nagyobb) > 0:
-    print(f"A tizennyolcnál nagyyobb szám helye:{dobasok.index(len(tizennyolcnal_nagyobb))+1}")
+    elso = tizennyolcnal_nagyobb[0]
+    print(f"A tizennyolcnál nagyobb dobás helye: {dobasok.index(elso) + 1}")
+    # print(f"A tizennyolcnál nagyyobb szám helye:{dobasok.index(len(tizennyolcnal_nagyobb))+1}")
 else:
     print("Nem volt 18-nál nagyobb dobásod.")
 print("----------------/n")
